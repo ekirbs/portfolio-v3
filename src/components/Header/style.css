@@ -1,0 +1,19 @@
+.header {
+  background: linear-gradient(var(--tertiary), var(--black));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header a h1:hover {
+  color: linear-gradient(var(--white), var(--tertiary));
+}
+
+.header a h1 {
+  padding-top: 1vh;
+  text-align: center;
+}

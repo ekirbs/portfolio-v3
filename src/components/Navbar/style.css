@@ -1,0 +1,59 @@
+.navCard {
+  background: var(--black);
+  border-top: 1px solid var(--tertiary);
+  border-bottom: 1px solid var(--tertiary);
+}
+
+.navHeading {
+  min-height: 4em;
+  line-height: 1em;
+  font-size: 1.2rem;
+  color: var(--tertiary);
+  padding: 0 2em;
+}
+
+.navHeader a:hover {
+  opacity: 100%;
+}
+
+.navHeader {
+  transition: transform 0.2s;
+  transition: background-color 1s ease-out 100ms;
+}
+
+.navHeader a:hover {
+  transform: scale(1.025);
+}
+
+.navHeader active {
+  color: var(--black);
+  background: var(--tertiary);
+}
+
+.navHeader a {
+  color: var(--secondary);
+}
+
+.navHeader a:hover {
+  color: var(--tertiary);
+}
+
+.nav-link {
+  color: var(--tertiary);
+}
+
+.nav-link:hover {
+  color: var(--white);
+}
+
+.nav {
+  color: var(--tertiary);
+}
+
+.nav:hover {
+  color: var(--white);
+}
+
+.nav .nav-item .nav-link.active {
+  color: var(--tertiary) !important;
+}

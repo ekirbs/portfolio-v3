@@ -1,0 +1,177 @@
+.portfolioCard {
+  margin: 2em;
+  background: var(--black);
+  border-radius: 3em 3em 2em 2em;
+  padding-bottom: 2em;
+  background-image: url(./images/bulb7.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.portfolioCardHeading {
+  background: var(--dark);
+  min-height: 4em;
+  line-height: .5em;
+  font-size: 1.2rem;
+  color: var(--tertiary);
+  padding: 2em;
+  border-radius: 2em 2em 0 0;
+}
+
+.portfolioCardContent {
+  padding: 2em;
+  height: 30em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.projectCarousel {
+  max-width: 50%;
+  height: auto;
+  margin: 2em;
+}
+
+/* .projects-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5em;
+  grid-template-areas:
+    "main main alt"
+    "alt alt alt";
+} */
+
+/* .projectCard {
+  height: 100%;
+  width: 100%;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: flex-end;
+  overflow: hidden;
+  min-width: 25%;
+} */
+
+/* .projectCard a {
+  opacity: 75%;
+} */
+
+/* .projectCard img {
+  width: 100%;
+} */
+
+/* .card-main {
+  width: 0;
+  height: 0;
+  margin: 2px;
+  min-width: 100%;
+  min-height: 100%;
+  grid-area: 1 / 1 / span 1 / span 2;
+} */
+
+/* .card-alt {
+  width: 0;
+  height: 0;
+  margin: 2px;
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+/* .img-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: var(--primary);
+  color: var(--light);
+  flex: 1 1 50%;
+  padding: 2px;
+  border-radius: .5em 0 0 0;
+  opacity: 75%;
+} */
+
+/* .projectCard a:hover {
+  opacity: 100%;
+} */
+
+/* .projectZoom {
+  transition: transform 0.2s;
+} */
+
+/* .projectZoom:hover {
+  transform: scale(1.025);
+} */
+
+.carouselContainer {
+  width: 75%;
+  height: 50%;
+  margin: 3em;
+}
+
+/* CAROUSEL STYLING */
+.carouselWhiteSquareOuterDiv {
+  background: var(--quatrinary);
+  backdrop-filter: blur(22px);
+  position: relative;
+  border-radius: 2em;
+  height: 30em;
+}
+
+.carouselWhiteSquareInnerDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 2em;
+  border: .1em solid var(--black);
+}
+
+.carouselWhiteSquareInnerDiv img {
+  border-radius: 2em;
+}
+
+.carousel-txt {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  margin: 1em;
+}
+
+.carouselImageOuterDiv {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselImageInnerDiv {
+  width: 25em;
+  height: 20em;
+  overflow: hidden;
+  position: relative;
+}
+
+.projectImgLocation {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.carouselTitleDiv {
+  font-size: 2em;
+  color: var(--black);
+  z-index: 1;
+}
+
+.carouselTitleDiv a {
+  color: var(--black);
+  text-shadow: 2px 2px 4px var(--secondary);
+}
+
+.carouselTitleDiv a:hover {
+  color: var(--tertiary);
+  text-shadow: 2px 2px 4px var(--black);
+}

@@ -1,0 +1,38 @@
+.resumeCard {
+  margin: 2em;
+  background: var(--tertiary);
+  /* background: black; */
+  border-radius: 3em 3em 2em 2em;
+  color: var(--tertiary);
+  background-image: url(./images/light-bulb.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.resumeCardHeading {
+  background: var(--dark);
+  min-height: 4em;
+  line-height: .5em;
+  font-size: 1.2rem;
+  color: var(--tertiary);
+  padding: 2em;
+  border-radius: 2em 2em 0 0;
+}
+
+.resumeCardContent {
+  padding: 2em;
+  margin: 2vw;
+}
+
+.resume-img {
+  height: 20vh;
+  width: auto;
+  opacity: 75%;
+  margin-left: 7.5vw;
+  transition: transform 0.2s;
+}
+
+.resume-img:hover {
+  opacity: 100%;
+  transform: scale(1.1);
+}
