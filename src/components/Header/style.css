@@ -1,19 +1,19 @@
-.header {
-  background: linear-gradient(var(--tertiary), var(--black));
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  height: 12vh;
+ .header {
+  background: var(--cydark);
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.header a h1:hover {
-  color: linear-gradient(var(--white), var(--tertiary));
+  height: 10vh;
 }
 
 .header a h1 {
-  padding-top: 1vh;
   text-align: center;
+  color: var(--highdark);
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px var(--secondary);
+}
+
+.header a h1:hover {
+  color: var(--highmid);
+  text-shadow: 2px 2px 4px var(--white);
 }

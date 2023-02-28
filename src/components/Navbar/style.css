@@ -1,7 +1,9 @@
 .navCard {
-  background: var(--black);
-  border-top: 1px solid var(--tertiary);
-  border-bottom: 1px solid var(--tertiary);
+  background: var(--white);
+  border-top: 2px solid var(--highdark);
+  border-bottom: 2px solid var(--highdark);
+  box-shadow: 2px 0 4px var(--white);
+  height: 5vh;
 }
 
 .navHeading {
