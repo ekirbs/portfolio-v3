@@ -37,7 +37,7 @@
 }
 
 .navHeader a:hover {
-  color: var(--tertiary);
+  color: var(--highmid);
 }
 
 .nav-link {
@@ -57,5 +57,5 @@
 }
 
 .nav .nav-item .nav-link.active {
-  color: var(--tertiary) !important;
+  color: var(--highdark) !important;
 }

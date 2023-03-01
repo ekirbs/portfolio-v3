@@ -1,18 +1,22 @@
 .loFiCard {
   margin: 2em;
-  background: var(--black);
-  border-radius: 3em 3em 2em 2em;
-  padding: 2em;
+  background: var(--white);
+  border-radius: 4vh;
+  padding-bottom: 2em;
+  box-shadow: 2px 2px 4px var(--black);
+  display: flex;
+  flex-direction: column;
 }
 
 .loFiCardHeading {
-  background: var(--dark);
-  min-height: 4em;
-  line-height: .5em;
-  font-size: 1.2rem;
-  color: var(--tertiary);
-  padding: 2em;
-  border-radius: 2em 2em 0 0;
+  background: var(--turq);
+  min-height: 10vh;
+  font-size: 5vh;
+  color: var(--highdark);
+  padding: 2vw;
+  border-radius: 4vh 4vh 0 0;
+  border: 2px solid var(--highdark);
+  text-shadow: 2px 2px 4px var(--white);
 }
 
 .loFiCardContent {
@@ -20,7 +24,7 @@
 }
 
 .lofiNavBtn {
-  color: var(--tertiary);
+  color: var(--turq);
   padding: .75rem .375rem;
   font-size: 1rem;
   font-weight: 400px;

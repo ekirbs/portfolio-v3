@@ -14,10 +14,10 @@ export default function LoFi() {
   const [currentmusic, setCurrentmusic] = useState(music[0]);
   const [isplaying, setIsplaying] = useState(false);
   const [librarystatus, setLibrarystatus] = useState(false);
+
   return (
     <div className="loFiCard">
-      <h1 className="loFiCardHeading">Lofify: Lofi Music Player</h1>
-      {/* <h1 className="loFiCardHeading">Hangout Room</h1> */}
+      <h1 className="loFiCardHeading">Music Player</h1>
       <div className="LoFi">
         {/* <Landing /> */}
         <Nav librarystatus={librarystatus} setLibrarystatus={setLibrarystatus} />

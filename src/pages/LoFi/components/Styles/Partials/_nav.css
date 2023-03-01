@@ -9,7 +9,7 @@
 
 .lofiNavBtn {
   background: transparent;
-  border: 2px solid rgba(69, 60, 75, 0.897);
+  border: 2px solid var(--highdark);
   border-radius: 4px;
   cursor: pointer;
   z-index: 2;
@@ -18,12 +18,12 @@
   /* color: #FFFDD0; */
 }
 
-.lofiNavBtn:hover {
-  background: rgb(71, 66, 78);
+/* .lofiNavBtn:hover {
+  background: red;
   color: white;
-}
+} */
 
 .icon {
   margin-right: 0.5rem;
-  color: #FFFDD0;
+  color: var(--highlight);
 }

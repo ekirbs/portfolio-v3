@@ -1,21 +1,23 @@
 .portfolioCard {
   margin: 2em;
-  background: var(--black);
-  border-radius: 3em 3em 2em 2em;
+  /* background: rgb(255, 255, 255 50%); */
+  background: var(--white);
+  border-radius: 4vh;
   padding-bottom: 2em;
-  background-image: url(./images/bulb7.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
+  box-shadow: 2px 2px 4px var(--black);
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolioCardHeading {
-  background: var(--dark);
-  min-height: 4em;
-  line-height: .5em;
-  font-size: 1.2rem;
-  color: var(--tertiary);
-  padding: 2em;
-  border-radius: 2em 2em 0 0;
+  background: var(--turq);
+  min-height: 10vh;
+  font-size: 5vh;
+  color: var(--highdark);
+  padding: 2vw;
+  border-radius: 4vh 4vh 0 0;
+  border: 2px solid var(--highdark);
+  text-shadow: 2px 2px 4px var(--white);
 }
 
 .portfolioCardContent {
@@ -33,78 +35,6 @@
   margin: 2em;
 }
 
-/* .projects-section {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.5em;
-  grid-template-areas:
-    "main main alt"
-    "alt alt alt";
-} */
-
-/* .projectCard {
-  height: 100%;
-  width: 100%;
-  margin: 1%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-align: flex-end;
-  overflow: hidden;
-  min-width: 25%;
-} */
-
-/* .projectCard a {
-  opacity: 75%;
-} */
-
-/* .projectCard img {
-  width: 100%;
-} */
-
-/* .card-main {
-  width: 0;
-  height: 0;
-  margin: 2px;
-  min-width: 100%;
-  min-height: 100%;
-  grid-area: 1 / 1 / span 1 / span 2;
-} */
-
-/* .card-alt {
-  width: 0;
-  height: 0;
-  margin: 2px;
-  min-width: 100%;
-  min-height: 100%;
-} */
-
-/* .img-text {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: var(--primary);
-  color: var(--light);
-  flex: 1 1 50%;
-  padding: 2px;
-  border-radius: .5em 0 0 0;
-  opacity: 75%;
-} */
-
-/* .projectCard a:hover {
-  opacity: 100%;
-} */
-
-/* .projectZoom {
-  transition: transform 0.2s;
-} */
-
-/* .projectZoom:hover {
-  transform: scale(1.025);
-} */
-
 .carouselContainer {
   width: 75%;
   height: 50%;
@@ -113,7 +43,7 @@
 
 /* CAROUSEL STYLING */
 .carouselWhiteSquareOuterDiv {
-  background: var(--quatrinary);
+  background: var(--turq);
   backdrop-filter: blur(22px);
   position: relative;
   border-radius: 2em;
@@ -125,7 +55,7 @@
   width: 100%;
   height: 100%;
   border-radius: 2em;
-  border: .1em solid var(--black);
+  border: .1em solid var(--highmid);
 }
 
 .carouselWhiteSquareInnerDiv img {
@@ -158,6 +88,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  border-radius: 2em;
 }
 
 .carouselTitleDiv {
@@ -167,11 +98,23 @@
 }
 
 .carouselTitleDiv a {
-  color: var(--black);
-  text-shadow: 2px 2px 4px var(--secondary);
+  color: var(--highdark);
+  text-shadow: 2px 2px 4px var(--white);
 }
 
 .carouselTitleDiv a:hover {
-  color: var(--tertiary);
-  text-shadow: 2px 2px 4px var(--black);
+  color: var(--highdark);
+  text-shadow: 2px 2px 4px var(--dark);
+}
+
+.portfolioRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  --bs-gutter-x: -1.5rem;
+}
+
+.portfolioCol {
+
 }

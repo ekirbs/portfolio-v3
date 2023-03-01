@@ -45,3 +45,21 @@
     transform: rotate(359deg);
   }
 }
+
+.record {
+  border-radius: 50%;
+  border: 3px solid var(--black);
+  background: var(--black);
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+  .record {
+    height: 55vw;
+    width: 55vw;
+  }
+}

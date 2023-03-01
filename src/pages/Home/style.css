@@ -1,25 +1,23 @@
 .homeCard {
   height: 75vh;
+  /* display: flex; */
 }
 
 .homeCardContent {
-  padding: 2em;
   color: var(--white);
+  padding-top: 2vh;
+  font-size: 125%;
 }
 
-.homeMain {
-  display: flex;
-}
-
-.homeMain a {
+.contact-link {
   border: .05em solid var(--black);
-  border-radius: 2em;
-  box-shadow: .75em .75em 1em var(--black);
+  border-radius: 5px;
+  /* box-shadow: 2px 2px 4px var(--black); */
   height: 15vw;
   width: 15vw;
   position: absolute;
-  bottom: 12vh;
-  right: 3vw;
+  bottom: 15vh;
+  right: 5vw;
 }
 
 .contact-link img {
@@ -27,6 +25,13 @@
   width: 100%;
   object-fit: cover;
   border: .05em solid var(--black);
-  border-radius: 2em;
-  box-shadow: .75em .75em 1em var(--black);
+  border-radius: 5px;
+  box-shadow: 3vh 3vh 6vh var(--black);
+}
+
+@media screen and (max-width: 400px) {
+  .contact-link {
+    height: 30vw;
+    width: 30vw;
+  }
 }

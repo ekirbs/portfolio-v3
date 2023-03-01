@@ -1,17 +1,27 @@
 import React from 'react';
+import { Container, Row, Col } from "react-bootstrap";
 
-import thinkingRobot from "./images/thinkingRobot.jpg"
+import { placeholder } from "./images/";
 import "./style.css";
 
 export default function About() {
   return (
-    <div className="homeCard">
-      <div className="homeMain">
-        <p className="homeCardContent col-6">Hello! My name is Eric Kirberger and I am an aspiring Full Stack Web Developer in the Rutgers Coding Bootcamp.  Please enjoy my portfolio!</p>
-        <a href="#contact" className="contact-link">
-          <img src={thinkingRobot} alt="A robot sitting and thinking."></img>
-        </a>
-      </div>
-    </div>
+    <>
+      <Container className="homeCard">
+        <Row>
+          <Col xs={0} md={6}></Col>
+          <Col xs={12} md={6}>
+            <p className="homeCardContent">Hi there. My name is Eric Kirberger and I am a Full Stack Web Developer.  Please enjoy my portfolio!</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <a href="#contact" className="contact-link">
+              <img src={placeholder} alt="A robot sitting and thinking."></img>
+            </a>
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 }
