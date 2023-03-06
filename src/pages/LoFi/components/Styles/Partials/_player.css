@@ -9,6 +9,8 @@
 .time-control {
   width: clamp(10rem, 100vw, 35rem);
   display: flex;
+  height: 10vh;
+  justify-content: space-around;
 }
 
 .time-control input {
@@ -19,12 +21,15 @@
 
 .time-control p {
   padding: 1rem;
-  color: #FFFDD0;
+  color: var(--secondary);
 }
 
 .time-control input {
-  background: black;
-
+  background: var(--white);
+  border: 2px solid var(--highdark);
+  box-shadow: 2px 2px 2px var(--dark);
+  border-radius: 2vh;
+  padding: 1vw;
 }
 
 .play-control {
@@ -36,7 +41,7 @@
 
 .play-control svg {
   cursor: pointer;
-  color: #FFFDD0;
+  color: var(--secondary);
   /* margin: 1em; */
 }
 
@@ -53,4 +58,14 @@
 
 .spinner {
   animation: rotation 1s infinite linear;
+}
+
+@media screen and (max-width: 700px) {
+  /* .time-control {
+    flex-direction: column;
+  } */
+
+  /* .time-control p {
+    display: none;
+  } */
 }

@@ -1,35 +1,36 @@
 .contactCard {
-  margin: 5vw 10vw;
-  background: var(--black);
-  border-radius: 3em 3em 2em 2em;
+  margin: 2em;
+  background: var(--white);
+  border-radius: 4vh;
+  padding-bottom: 2em;
+  box-shadow: 2px 2px 4px var(--black);
+  display: flex;
+  flex-direction: column;
 }
 
-.contactCard img {
+/* .contactCard img {
   max-width: auto;
   max-height: 10em;
   border: .25em solid var(--black);
   border-radius: 2em;
-}
+} */
 
-.contactCardHeading {
-  background: var(--dark);
-  min-height: 4em;
-  line-height: .5em;
-  font-size: 1.2rem;
-  color: var(--tertiary);
-  padding: 2em;
-  border-radius: 2em 2em 0 0;
+.contact-card-heading {
+  background: var(--turq);
+  min-height: 10vh;
+  font-size: 5vh;
+  color: var(--highdark);
+  padding: 2vw;
+  border-radius: 4vh 4vh 0 0;
+  border: 2px solid var(--highdark);
+  text-shadow: 2px 2px 4px var(--white);
 }
 
 .contactCardGreeting {
   padding: 2vh;
-  color: var(--tertiary);
-}
-
-.contactContainer h3 {
   display: flex;
   justify-content: center;
-  color: var(--tertiary);
+  color: var(--dark);
 }
 
 .contactForm {
@@ -55,16 +56,18 @@
   border: .05em solid var(--black);
   box-shadow: .25em .25em .5em var(--black);
   transition: transform 0.2s;
+  background-color: var(--highmid);
 }
 
 .contactForm button:hover {
   box-shadow: .275em .275em .55em var(--black);
   transform: scale(1.1);
+  background-color: var(--highdark);
 }
 
 .contactArea {
-  background-color: var(--dark);
-  color: var(--tertiary);
+  background-color: var(--cylight);
+  color: var(--dark);
 }
 
 .contactNameArea,
@@ -94,5 +97,11 @@
 
 .contactCardContent {
   padding: 2vh;
-  color: var(--tertiary);
+  color: var(--secondary);
+}
+
+@media screen and (max-width: 700px) {
+  .contact-card-heading {
+    text-align: center;
+  }
 }

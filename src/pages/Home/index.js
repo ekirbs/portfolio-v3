@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 
-import { placeholder } from "./images/";
+import { placeholder } from "./images";
 import "./style.css";
 
-export default function About() {
+export default function About({ handlePageChange }) {
   return (
     <>
       <Container className="homeCard">
@@ -16,8 +16,12 @@ export default function About() {
         </Row>
         <Row>
           <Col>
-            <a href="#contact" className="contact-link">
-              <img src={placeholder} alt="A robot sitting and thinking."></img>
+            <a
+              href="#contact"
+              onClick={() => handlePageChange('Contact')}
+              className="contact-link"
+            >
+              <img src={placeholder} alt="My face zooming in."></img>
             </a>
           </Col>
         </Row>

@@ -5,7 +5,6 @@ import "./style.css";
 const NavComp = ({ currentPage, handlePageChange }) => {
 
   return (
-    <>
       <div className="navCard">
         <ul className="nav">
           <li className="nav-item navHeader">
@@ -46,7 +45,6 @@ const NavComp = ({ currentPage, handlePageChange }) => {
           </li>
         </ul>
       </div>
-    </>
   )
 }
 

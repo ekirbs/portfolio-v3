@@ -126,7 +126,7 @@ export default function Player({
   return (
     <div className="player-container">
       <div className="time-control">
-        <p className="time-control-current">{timeFormat(musicinfo.currentTime || 0)}</p>
+        <p>{timeFormat(musicinfo.currentTime || 0)}</p>
         <input
           className="styled-slider slider-progress"
           type="range"
@@ -135,7 +135,7 @@ export default function Player({
           value={musicinfo.currentTime}
           onChange={draghandler}
         />
-        <p className="time-control-duration">{timeFormat(musicinfo.duration || 0)}</p>
+        <p>{timeFormat(musicinfo.duration || 0)}</p>
       </div>
       <div className="play-control">
         <label htmlFor="volume">

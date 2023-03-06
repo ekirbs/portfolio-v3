@@ -27,7 +27,7 @@ export default function Contact() {
 
   return (
     <div className="contactCard">
-      <h1 className="contactCardHeading">Contact Me</h1>
+      <h1 className="contact-card-heading">Contact Me</h1>
       <div className ="contactContainer">
       <h3 className="contactCardGreeting">Hi {formInput.name}!</h3>
         <form className="contactForm">
