@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 import Carousel3d from "../../components/Card/carousel3d";
 import CarouselCard from "../../components/Card/carouselCard";
