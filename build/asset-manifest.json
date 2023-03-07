@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-v3/static/css/main.c9975d40.css",
+    "main.js": "/portfolio-v3/static/js/main.64cba4ce.js",
+    "static/media/placeholder.gif": "/portfolio-v3/static/media/placeholder.9e391c980529adf7f5ee.gif",
+    "static/media/resume.pdf": "/portfolio-v3/static/media/resume.877c83547824b8cf150d.pdf",
+    "static/media/nat-park-travel-guide-screenshot.png": "/portfolio-v3/static/media/nat-park-travel-guide-screenshot.9635b15ca033496dfbba.png",
+    "static/media/task-sandwich.png": "/portfolio-v3/static/media/task-sandwich.815f6e536d60eafca282.png",
+    "static/media/thinkingRobot.jpg": "/portfolio-v3/static/media/thinkingRobot.dfc9b8a7381c9ca6fdbf.jpg",
+    "static/media/boston-street-cuisine.png": "/portfolio-v3/static/media/boston-street-cuisine.3706496330d2d8e6efa0.png",
+    "static/media/weather-forecast-screenshot.png": "/portfolio-v3/static/media/weather-forecast-screenshot.406c388bf31e565f9ce6.png",
+    "static/media/resume-img.webp": "/portfolio-v3/static/media/resume-img.e4c5c34e1292e64e4fdb.webp",
+    "static/media/daily-sched-screenshot.png": "/portfolio-v3/static/media/daily-sched-screenshot.6528d637459297ebd820.png",
+    "static/media/big-quiz-screenshot.png": "/portfolio-v3/static/media/big-quiz-screenshot.0e8e631a9a86cc614200.png",
+    "static/media/paper-standout.jpg": "/portfolio-v3/static/media/paper-standout.60fbc213a190867f4777.jpg",
+    "static/media/github-logo.jpg": "/portfolio-v3/static/media/github-logo.fabbe3c10b110b54f815.jpg",
+    "static/media/random-password-generator-screenshot.png": "/portfolio-v3/static/media/random-password-generator-screenshot.772b327e01b07437a038.png",
+    "static/media/lofi-img.webp": "/portfolio-v3/static/media/lofi-img.4b77484ad782033bfddf.webp",
+    "static/media/linkedin-logo.jpg": "/portfolio-v3/static/media/linkedin-logo.d85c32d23d11237ea004.jpg",
+    "index.html": "/portfolio-v3/index.html",
+    "main.c9975d40.css.map": "/portfolio-v3/static/css/main.c9975d40.css.map",
+    "main.64cba4ce.js.map": "/portfolio-v3/static/js/main.64cba4ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9975d40.css",
+    "static/js/main.64cba4ce.js"
+  ]
+}
