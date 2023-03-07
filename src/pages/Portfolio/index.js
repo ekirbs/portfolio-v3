@@ -12,13 +12,13 @@ import "./style.css";
 export default function Portfolio() {
   return (
     <div className="portfolio-row">
-      <Col xs={12} md={9} className="portfolio-col">
+      <Col xs={12} sm={10} md={9} className="portfolio-col">
         <div className="portfolio-card">
           <h1 className="portfolio-card-heading">
               My Portfolio
           </h1>
           <div className="portfolioCardContent">
-            <div className="carouselContainer">
+            <div className="carousel-container">
               <Carousel3d
                 cards={[
                   {
@@ -99,6 +99,7 @@ export default function Portfolio() {
                     ),
                   },
                 ]}
+                className="carousel-3d-card"
                 offset={3}
               />
             </div>

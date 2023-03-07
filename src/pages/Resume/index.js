@@ -103,26 +103,54 @@ export default function Contact() {
       <div className="resume-section-card">
         <Col>
           <h3 className="resume-title">Education</h3>
-          <p>
-            Hello! My name is Eric Kirberger and I am an aspiring Full Stack Web
-            Developer. I am currently in the Rutgers Coding Bootcamp building a
-            growing list of important skills and proficiencies. I am a former
-            fencing instructor and teacher, and I have a Bachelor's Degree in
-            Philosophy from Rutgers University! `Sed ut perspiciatis unde omnis
-            iste natus error sit voluptatem accusantium doloremque laudantium,
-            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-            quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-            consequuntur magni dolores eos qui ratione voluptatem sequi
-            nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-            amet, consectetur, adipisci velit, sed quia non numquam eius modi
-            tempora incidunt ut labore et dolore magnam aliquam quaerat
-            voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
-            ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-            consequatur? Quis autem vel eum iure reprehenderit qui in ea
-            voluptate velit esse quam nihil molestiae consequatur, vel illum qui
-            dolorem eum fugiat quo voluptas nulla pariatur?`
-          </p>
+          <Row>
+            <Col>
+              <p>
+                Full-Stack Web Development Certificate
+              </p>
+            </Col>
+            <Col>
+              <p>
+                Rutgers University Full-Stack Web Development Program, Feb '23
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <p>
+                New Jersey State Teaching Certificate of Eligibility
+              </p>
+            </Col>
+            <Col>
+              <p>
+                Rutgers University, May '17
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <p>
+                Bachelor's Degree in Philosophy
+              </p>
+            </Col>
+            <Col>
+              <p>
+                Rutgers University, May '14
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <p>
+                Associate Degree
+              </p>
+            </Col>
+            <Col>
+              <p>
+                County College of Morris, '07
+              </p>
+            </Col>
+          </Row>
         </Col>
       </div>
     </div>

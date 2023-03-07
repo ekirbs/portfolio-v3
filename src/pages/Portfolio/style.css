@@ -43,7 +43,7 @@
   margin: 2em;
 } */
 
-.carouselContainer {
+.carousel-container {
   /* max-width: 50%; */
   /* height: auto; */
   /* margin: 3em; */
@@ -117,8 +117,25 @@
   text-shadow: 2px 2px 4px var(--dark);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
+  .carousel-container Carousel3d  {
+    --slide-offset: 0;
+  }
+
+  .carouselWhiteSquareOuterDiv {
+    width: 40vw;
+  }
+  .carouselImageInnerDiv {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .portfolio-card-heading {
     text-align: center;
+  }
+
+  .carousel-txt {
+    display: none;
   }
 }
