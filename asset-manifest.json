@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-v3/static/css/main.c9975d40.css",
-    "main.js": "/portfolio-v3/static/js/main.64cba4ce.js",
+    "main.js": "/portfolio-v3/static/js/main.6bd03617.js",
     "static/media/placeholder.gif": "/portfolio-v3/static/media/placeholder.9e391c980529adf7f5ee.gif",
     "static/media/resume.pdf": "/portfolio-v3/static/media/resume.877c83547824b8cf150d.pdf",
     "static/media/nat-park-travel-guide-screenshot.png": "/portfolio-v3/static/media/nat-park-travel-guide-screenshot.9635b15ca033496dfbba.png",
@@ -19,10 +19,10 @@
     "static/media/linkedin-logo.jpg": "/portfolio-v3/static/media/linkedin-logo.d85c32d23d11237ea004.jpg",
     "index.html": "/portfolio-v3/index.html",
     "main.c9975d40.css.map": "/portfolio-v3/static/css/main.c9975d40.css.map",
-    "main.64cba4ce.js.map": "/portfolio-v3/static/js/main.64cba4ce.js.map"
+    "main.6bd03617.js.map": "/portfolio-v3/static/js/main.6bd03617.js.map"
   },
   "entrypoints": [
     "static/css/main.c9975d40.css",
-    "static/js/main.64cba4ce.js"
+    "static/js/main.6bd03617.js"
   ]
 }
